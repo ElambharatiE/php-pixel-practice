@@ -1,73 +1,48 @@
-# Welcome to your Lovable project
+# 🎯 WordPress FSE-Compatible Blog Theme Demo
 
-## Project info
+A modern, minimal, and responsive **WordPress Full Site Editing (FSE)** theme prototype built using **React.js**, CSS Grid/Flexbox, and JavaScript to simulate Gutenberg-based block structures. This project is tailored to demonstrate essential frontend and WordPress development skills expected by **rtCamp**.
 
-**URL**: https://lovable.dev/projects/0bb91e76-ba71-4a6c-8596-6ffa7d910090
+---
 
-## How can I edit this code?
+## 🚀 Project Overview
 
-There are several ways of editing your application.
+This demo simulates the architecture of a WordPress FSE theme using **React components**, showcasing:
 
-**Use Lovable**
+- 📄 Block-based layouts (Query Loop, Cover, Navigation)
+- 📱 Mobile-first responsive design
+- 🧩 Custom template parts (Header, Footer, Hero)
+- ⚙️ FSE/Gutenberg structure and block editor logic
+- ✨ CSS animations and transitions
+- 📂 Clean and maintainable code structure
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0bb91e76-ba71-4a6c-8596-6ffa7d910090) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🔧 Skills Demonstrated
 
-**Use your preferred IDE**
+### ✅ Must-Have Skills
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **JavaScript Mastery**: ES6+, DOM manipulation, React hooks
+- **HTML/CSS Fundamentals**: Semantic markup, accessibility, responsiveness
+- **PHP Concepts**: Represented through WordPress block structure simulation
+- **Git & Version Control**: Organized project structure ready for collaborative development
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### ✅ Good-to-Have Skills
 
-Follow these steps:
+- **React.js Proficiency**: Functional components, state management
+- **Gutenberg/FSE Expertise**: Component-based block system
+- **Modern CSS**: Flexbox, Grid, custom properties, transitions
+- **Best Practices**: Modular code, semantic structure, scalability
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🖼️ Design System
 
-# Step 3: Install the necessary dependencies.
-npm i
+- **Typography**: `Inter` and `Merriweather` for a professional editorial look
+- **Color Palette**: Elegant blog colors with subtle accents
+- **Animations**: Smooth scroll, hover effects, and component transitions
+- **Responsiveness**: Optimized for mobile-first experience with breakpoints
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
 
-**Use GitHub Codespaces**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/0bb91e76-ba71-4a6c-8596-6ffa7d910090) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
