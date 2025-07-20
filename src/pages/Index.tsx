@@ -1,12 +1,34 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Header } from '@/components/wordpress/Header';
+import { Hero } from '@/components/wordpress/Hero';
+import { BlogGrid } from '@/components/wordpress/BlogGrid';
+import { BlockEditor } from '@/components/wordpress/BlockEditor';
+import { TechStack } from '@/components/wordpress/TechStack';
+import { Footer } from '@/components/wordpress/Footer';
 
+/**
+ * WordPress FSE Theme Demo - Main Template
+ * Showcases modern WordPress development for rtcamp portfolio
+ */
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      {/* Header Template Part */}
+      <Header />
+      
+      {/* Hero Block */}
+      <Hero />
+      
+      {/* Blog Posts Query Loop */}
+      <BlogGrid />
+      
+      {/* Block Editor Demonstration */}
+      <BlockEditor />
+      
+      {/* Technical Skills Showcase */}
+      <TechStack />
+      
+      {/* Footer Template Part */}
+      <Footer />
     </div>
   );
 };
